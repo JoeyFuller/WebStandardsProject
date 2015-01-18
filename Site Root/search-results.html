@@ -8,18 +8,44 @@
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
+  
   <body>
-  	<header>
-    	<nav>
-        	<ul>
-            	<li><a href="home.html">Home</a></li>
-                <li><a href="user-login.html">Login</a></li>
-                <li><a href="saved-items.html">Saved Items</a></li>
-                <li><a href="result-details.html">Result Details</a></li>
-                <li><a href="search-results.html">Results</a></li>
-                <li><a href="user-signup.html">Sign Up</a></li>
-                </ul>
-    </header>
+  
+ <!--########## START OF NAV ##########-->    
+  	<div class="fixed">
+  		<nav class="top-bar" data-topbar role="navigation">
+  			<ul class="title-area">
+    			<li class="name">
+     				<h1><a href="home.html">Guard Search</a></h1>
+    			</li>
+     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a>		
+                </li>
+  			</ul>
+
+			<section class="top-bar-section">
+    <!-- Right Nav Section -->
+    			<ul class="right">
+      				<li class="has-dropdown">
+        				<a href="user-login.html">Sign In</a>
+        		<ul class="dropdown">
+        			<li><a href="user-login.html">Log Into Exsisting Account</a></li>
+        			<li class="active"><a href="user-signup.html">Register For A New Account</a></li>
+        		</ul>
+      				</li>
+    			</ul>
+
+    <!-- Left Nav Section -->
+    			<ul class="left">
+      				<li><a href="home.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="saved-items.html">Saved Items</a></li>
+                    <li><a href="profile.html">Profile</a></li>
+    			</ul>
+			</section>
+		</nav>
+	</div>  
+<!--########## END OF NAV ##########-->
     
     
     
