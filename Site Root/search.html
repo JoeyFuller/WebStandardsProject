@@ -6,13 +6,14 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
 
 <!--########## START OF NAV ##########-->    
-  	<div class="fixed">
-  		<nav class="top-bar" data-topbar role="navigation">
+  	<div class="fixed" id="navbar">
+  		<nav class="top-bar" id="navbar" data-topbar role="navigation">
   			<ul class="title-area">
     			<li class="name">
      				<h1><a href="home.html">Guard Search</a></h1>
@@ -48,15 +49,54 @@
 <!--########## END OF NAV ##########-->
 
 <!--########## START OF CONTENT ##########-->
+	<div id="second">
+	<div class="row" id="first">
+      <div class="large-12 columns">
+      	<h1 align="center"><img src="img/logo.png"></h1>
+      </div>
+	
+    
 	<div class="row">
 		<div class="large-12 columns">
-        	<h1>Guard Search</h1>
         	<form>
 				<label></label>
 				<input type="text" placeholder="Start your search here..." />
+                <p style="text-align:center"><a href="#" class="medium success button">Basic Search</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="#" class="medium success button">Detail Search</a><br/></p>
 		</div>
-	</div>
+        	
     		</form>
+    </div>
+    
+    <div class="row">
+    	<div class="large-4 columns">
+        	<h3>Search Suggestions</h3>
+            	<p>You can search anything from location names, zip codes, names, pay, and anything else you can think of. The seach bar automatically looks for your keywords and finds results for you!</p>
+        </div>
+        
+        <div class="large-4 columns">
+        	<h3>People Search</h3>
+            	<p>You can also search for certain people! If you know their name you can input it in the search bar and easily find their profile, work postings, or public jobs.</p>
+        </div>
+        
+        <div class="large-4 columns">
+        	<h3>Still Need help?</h3>
+            	<p>If you are not getting the results you are looking for, check out our 'detailed search' and place the options directly in the search areas you are trying to sort out.</p>
+        </div>
+        </div>
+    </div>
+        
+        
+    
+<!--########## END OF CONTENT ##########-->
+
+<!--########## START OF FOOTER ##########-->
+
+	<div class="footer">
+    	<p>2015 &copy; Fuller Hosting</p>
+    	</div> 
+        
+<!--########## END OF FOOTER ##########-->     
     
     
     

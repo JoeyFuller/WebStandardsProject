@@ -6,13 +6,14 @@
     <title>User Login</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
   
 <!--########## START OF NAV ##########-->    
-  	<div class="fixed">
-  		<nav class="top-bar" data-topbar role="navigation">
+  	<div class="fixed" id="navbar">
+  		<nav class="top-bar" id="navbar" data-topbar role="navigation">
   			<ul class="title-area">
     			<li class="name">
      				<h1><a href="home.html">Guard Search</a></h1>
@@ -36,7 +37,11 @@
 
     <!-- Left Nav Section -->
     			<ul class="left">
+      				<ul class="left">
       				<li><a href="home.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="saved-items.html">Saved Items</a></li>
+                    <li><a href="profile.html">Profile</a></li>
     			</ul>
 			</section>
 		</nav>
@@ -44,14 +49,14 @@
 <!--########## END OF NAV ##########-->
 
 <!--########## START OF CONTENT ##########-->
+		<div id="second">
+	<div class="row" id="first">
+      <div class="large-12 columns">
+      	<h1 align="center"><img src="img/logo.png"></h1>
+      </div>
 	
     <form>
 		<div class="row">
-			<div class="large-12 medium-12 small-12 columns">
-            	<h1>Guard Search</h1>
-                <p> </p>
-            </div>
-            
             <div class="large-3 medium-3 small-3 columns">
             	<p> </p>
             </div>
@@ -85,6 +90,18 @@
             </div>
 		
 	</form>
+    </div>
+    
+<!--########## END OF CONTENT ##########-->
+
+
+<!--########## START OF FOOTER ##########-->
+
+	<div class="footer">
+    	<p>2015 &copy; Fuller Hosting</p>
+    	</div>  
+        
+<!--########## END OF FOOTER ##########-->  
     
     
     
