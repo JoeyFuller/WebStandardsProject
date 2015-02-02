@@ -6,13 +6,14 @@
     <title>Home</title>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/main.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
 
 <!--########## START OF NAV ##########-->    
-  	<div class="fixed">
-  		<nav class="top-bar" data-topbar role="navigation">
+  	<div class="fixed" id="navbar">
+  		<nav class="top-bar" id="navbar" data-topbar role="navigation">
   			<ul class="title-area">
     			<li class="name">
      				<h1><a href="home.html">Guard Search</a></h1>
@@ -49,9 +50,9 @@
 
 <!--########## START OF MAIN CONTENT ##########-->
 
-	<div class="row">
+	<div class="row" id="first">
       <div class="large-12 columns">
-      	<h1 style="text-align:center">Guard Search</h1>
+      	<h1 align="center"><img src="img/logo.png"></h1>
       </div>
       <div class="large-12 columns">
       	<p>Guard Search&trade; is your leading source for armed and unarmed security employment. We provide the souce for you and the people around your area that need help connecting with each other to provide jobs and secure events or businesses.</p>
@@ -63,6 +64,7 @@
         <h3>Business Security</h3>
         	<p>We can connect your business to avalible guards willing to work in your area as soon as today! Start a quick <a href="search.html">search</a> to find a local guard and keep your business secure!</p> 
       </div>
+      <div class="large-4 columns">
       <h3>Private Security</h3>
         	<p>Are you in need of a personal escort for a high dollar client? Or possibly need to make sure a large sum of money makes it to its location. We have plenty of guards fully certified to handle the job. Start searching now!</p> 
       </div>
@@ -73,32 +75,7 @@
 <!--########## START OF FOOTER ##########-->
 
 	<div class="footer">
-    	<div class="row">
-        	<div class="large-12 columns">
-            	<br><br>
-            </div>
-        </div>
-        <div class="row">    
-        	<div class="large-4 columns" style="text-align:center">    
-        		<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">Legal</a>
-				<div id="drop2" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
-  					<p>All rights reserved. All work shown is subject to copyright laws and is not to be edited or reused in any way without permission</p>
-				</div>
-        	</div>
-            
-            <div class="large-4 columns" style="text-align:center">    
-        		<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">Contact</a>
-				<div id="drop2" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
-  					<p>If you have any questions feel free to head over to our contact page or E-mail us!</p>
-				</div>
-        	</div>
-            
-            <div class="large-4 columns" style="text-align:center">    
-        		<a data-dropdown="drop2" aria-controls="drop2" aria-expanded="false">Partners</a>
-				<div id="drop2" data-dropdown-content class="f-dropdown content" aria-hidden="true" tabindex="-1">
-  					<p>We are always actively seeking business partners to expand our reach. If this could be you feel free to contact us!</p>
-				</div>
-        	</div>
+    	<p>2015 &copy; Fuller Hosting</p>
     	</div> 
         
 <!--########## END OF FOOTER ##########-->   
